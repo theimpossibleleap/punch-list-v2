@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown > * {
+    all: revert;
+    margin: unset;
+    padding: unset;
+    margin-bottom: 5pt;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+strong {
+    color: #10b981;
+}
